@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Caveat';
+    src: url(fonts/Caveat.woff), format(".woff");    
+}
+
+h1 {
+    font-family: "Caveat";
+    text-align: center;
+    line-height: 0;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;  
+}
+h1::first-letter {font-size: 45px;}
+@font-face {
+    font-family: 'Ex02';
+    src: url(fonts/Exo2.woff), format(".woff");
+}
+h2 {
+    font-family: "Exo2";
+    margin-top: 1.2em;
+    margin-bottom: 0.2rem;
+    text-align: left;
+    text-indent: 25px;
+
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(fonts/Comfortaa.woff), format(".woff");
+}
+p {
+    font-family: "Comfortaa";
+    text-indent: 25px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    line-height: 200%;
+    font-size: 20px;  
+}
+p::first-letter {font-size: 45px;
+    font-weight: bold;
+color: white;
+background-color: hsla(275, 100%, 10%,1);}
+ol::first-line{
+    color: black;
+}
+ol {
+    list-style-type: upper-roman; color: blue;
+    font-family: "Comfortaa";
+    text-indent: 25px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    line-height: 200%;
+    font-size: 20px;  
+
+}
+li::first-line{
+color: black;
+}
+
+    .p1::first-line{
+        color: red;
+        text-indent: 25px;
+    }
+    .p1::first-letter{
+        font-size: 25px;
+        background-color: white;
+        color: red;
+        font-weight: 100;
+    }
+.p1 { font-family: "Comfortaa";
+    font-size: 20px;
+
+}
